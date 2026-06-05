@@ -21,8 +21,8 @@ app.command("/cm-help", async ({ ack, respond }) => {
   await respond({
     text:
 `Available Commands:
-/dsb-ping - Check bot latency
-/dsb-catfact - Get a cat fact`
+/cm-ping - Check bot latency
+/cm-catfact - Get a cat fact`
   });
 });
 
